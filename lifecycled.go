@@ -27,6 +27,7 @@ type Lifecycled struct {
 
 const (
 	backoff float64 = 10000.0
+	version string = "0.0.1"
 )
 
 var execCommand = exec.Command
@@ -41,7 +42,7 @@ var (
 )
 
 func main() {
-	kingpin.Version("0.0.1")
+	kingpin.Version(version)
 	kingpin.Parse()
 
 	ld := Lifecycled{
