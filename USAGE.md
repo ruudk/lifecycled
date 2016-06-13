@@ -1,4 +1,4 @@
-##### Usage
+##### Detailed Usage
 
 Ensure everything is working okay.
 
