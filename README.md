@@ -13,7 +13,7 @@ Coverage.
 Install.
 
 ```
-$ go get github.com/Chansey-Org/lifecycled
+$ go get github.com/jason-riddle/lifecycled
 ```
 
 Help.

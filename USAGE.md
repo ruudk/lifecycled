@@ -14,7 +14,7 @@ gotour
 Install lifecycled.
 
 ```
-go get -u github.com/Chansey-Org/lifecycled
+go get -u github.com/jason-riddle/lifecycled
 ```
 
 Help.
