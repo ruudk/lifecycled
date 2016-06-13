@@ -27,7 +27,7 @@ type Lifecycled struct {
 
 const (
 	backoff float64 = 10000.0
-	version string = "0.0.1"
+	version string  = "0.0.1"
 )
 
 var execCommand = exec.Command
