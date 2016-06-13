@@ -1,0 +1,9 @@
+{
+  "AutoScalingGroupName": "exampleAutoScalingGroup",
+  "Service": "AWS Auto Scaling",
+  "Time": "2015-01-07T17:46:26.005Z",
+  "AccountId": "356438515751",
+  "Event": "autoscaling:TEST_NOTIFICATION",
+  "RequestId": "1a10a7c6-9695-11e4-97d0-730e96ff7596",
+  "AutoScalingGroupARN": "arn:aws:autoscaling:us-west-1:356438515751:autoScalingGroup:3adf0ecc-39e7-4d58-9933-67df2bbee7fa:autoScalingGroupName/exampleAutoScalingGroup"
+}

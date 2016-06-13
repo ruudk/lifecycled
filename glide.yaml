@@ -1,0 +1,7 @@
+package: github.com/jason-riddle/lifecycled
+import:
+- package: github.com/Zemanta/gracefulshutdown
+  subpackages:
+  - shutdownmanagers/awsmanager
+  - shutdownmanagers/posixsignal
+- package: gopkg.in/alecthomas/kingpin.v2

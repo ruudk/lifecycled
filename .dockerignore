@@ -1,0 +1,6 @@
+vendor/
+glide.yaml
+glide.lock
+Dockerfile
+.gitignore
+README.md

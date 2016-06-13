@@ -1,0 +1,25 @@
+sudo: false
+
+language: go
+
+go:
+  - 1.5
+  - 1.6
+
+branches:
+  only:
+    - master
+
+before_script:
+  - go get golang.org/x/tools/cmd/goimports
+  - go get -u github.com/golang/lint/golint
+  - go get github.com/modocache/gover
+  - go get -v github.com/GeertJohan/fgt
+  - go get github.com/Masterminds/glide
+  - glide install
+
+script:
+  - ./test.sh
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -f coverprofile.txt
