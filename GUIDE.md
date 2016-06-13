@@ -87,8 +87,7 @@ aws iam put-role-policy \
                 "ec2:DescribeInstances",
                 "sqs:DeleteMessage",
                 "sqs:GetQueueUrl",
-                "sqs:ReceiveMessage",
-                "sns:Publish"
+                "sqs:ReceiveMessage"
             ]
         }
     ]
