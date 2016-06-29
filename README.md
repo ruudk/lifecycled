@@ -4,7 +4,7 @@ More info on how to use auto scaling lifecycle hooks can be found here: http://d
 
 Travis.
 
-[![Build Status](https://travis-ci.org/jason-riddle/lifecycled.svg?branch=master)](https://travis-ci.org/jason-riddle/lifecycled)
+[![Build Status](https://travis-ci.org/JustScaleIt/lifecycled.svg?branch=master)](https://travis-ci.org/JustScaleIt/lifecycled)
 
 Coverage.
 
