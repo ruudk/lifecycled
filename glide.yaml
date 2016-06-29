@@ -1,4 +1,4 @@
-package: github.com/jason-riddle/lifecycled
+package: github.com/JustScaleIt/lifecycled
 import:
 - package: github.com/Zemanta/gracefulshutdown
   subpackages:
