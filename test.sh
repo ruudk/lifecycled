@@ -17,6 +17,7 @@ if ! which golint > /dev/null ; then
 fi
 
 echo "running golint"
+sleep 1
 for package in $PACKAGES
 do
     fgt golint ${package}
@@ -24,12 +25,14 @@ done
 
 # check go fmt
 echo "running gofmt"
+sleep 1
 for package in $PACKAGES
 do
     test -z "$(gofmt -s -l $GOPATH/src/$package/ | grep -v /vendor/ | tee /dev/stderr)"
 done
 
 echo "running coverage"
+sleep 1
 COVPROFILES=""
 for package in $(go list -f '{{if len .TestGoFiles}}{{.ImportPath}}{{end}}' $PACKAGES)
 do
