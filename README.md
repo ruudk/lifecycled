@@ -8,7 +8,7 @@ Travis.
 
 Coverage.
 
-[![codecov](https://codecov.io/gh/jason-riddle/lifecycled/branch/master/graph/badge.svg)](https://codecov.io/gh/jason-riddle/lifecycled)
+[![codecov](https://codecov.io/gh/JustScaleIt/lifecycled/branch/master/graph/badge.svg)](https://codecov.io/gh/JustScaleIt/lifecycled)
 
 Install.
 
