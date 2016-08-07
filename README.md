@@ -13,7 +13,7 @@ Coverage.
 Install.
 
 ```
-$ go get github.com/jason-riddle/lifecycled
+$ go get github.com/JustScaleIt/lifecycled
 ```
 
 Help.
