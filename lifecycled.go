@@ -130,6 +130,9 @@ func RunCommand(cmdWithArgs []string, execTimeout time.Duration) error {
 		run = execCommand(cmdWithArgs[0], cmdWithArgs[1:]...)
 	}
 
+	run.Stdout = os.Stdout
+	run.Stderr = os.Stderr
+
 	err := Watch(run, execTimeout)
 	if err != nil {
 		return fmt.Errorf("error running cmd = %v", err)
