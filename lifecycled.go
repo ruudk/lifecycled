@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Zemanta/gracefulshutdown"
-	"github.com/Zemanta/gracefulshutdown/shutdownmanagers/awsmanager"
-	"github.com/Zemanta/gracefulshutdown/shutdownmanagers/posixsignal"
+	"github.com/ruudk/gracefulshutdown"
+	"github.com/ruudk/gracefulshutdown/shutdownmanagers/awsmanager"
+	"github.com/ruudk/gracefulshutdown/shutdownmanagers/posixsignal"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
